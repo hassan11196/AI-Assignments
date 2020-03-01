@@ -2,10 +2,11 @@
 
 ## A1 
 Following are the strategies to be implemented.
-a) Breadth first search
-b) Uniform cost search
-c) Greedy best first search
-d) Iterative deepening depth first search
+* Breadth first search
+* Uniform cost search
+* Greedy best first search
+* Iterative deepening depth first search
+
 A comparison of these four needs to be done. Complete list of pathway and path cost of each algorithm has to be calculated so that it shows clearly that which algorithm is best out of all in ascending order.
 
 ### Search Algorithms Sorted in order of Path Cost : 
@@ -17,6 +18,12 @@ end_node : Bucharest
 2. Breadth First Search Path : ['Arad', 'Sibiu', 'Fagaras', 'Bucharest'] Cost : 450
 3. Greedy Best First Search Path : ['Arad', 'Sibiu', 'Fagaras', 'Bucharest'] Cost : 450
 4. Iterative Deepening Depth First Search Path : ['Arad', 'Sibiu', 'Fagaras', 'Bucharest'] Cost : 450
+
+### Visualizations :
+ * #### Uniform Cost Search:
+    ![](A1/ucs-gif.gif)
+ * #### Iterative Deepening Depth First Search:
+    ![](A1/iddfs-gif.gif) 
 
 Conclusions : 
  * Uniform Cost Search is Best as it is complete and optimal for edges with non uniform costs.

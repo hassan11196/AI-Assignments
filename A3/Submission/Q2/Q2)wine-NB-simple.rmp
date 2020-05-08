@@ -49,40 +49,16 @@
         <list key="application_parameters"/>
         <parameter key="create_view" value="false"/>
       </operator>
-      <operator activated="true" class="performance_classification" compatibility="9.6.000" expanded="true" height="82" name="Performance" origin="GENERATED_TUTORIAL" width="90" x="648" y="187">
-        <parameter key="main_criterion" value="accuracy"/>
-        <parameter key="accuracy" value="true"/>
-        <parameter key="classification_error" value="true"/>
-        <parameter key="kappa" value="false"/>
-        <parameter key="weighted_mean_recall" value="false"/>
-        <parameter key="weighted_mean_precision" value="false"/>
-        <parameter key="spearman_rho" value="false"/>
-        <parameter key="kendall_tau" value="false"/>
-        <parameter key="absolute_error" value="false"/>
-        <parameter key="relative_error" value="false"/>
-        <parameter key="relative_error_lenient" value="false"/>
-        <parameter key="relative_error_strict" value="false"/>
-        <parameter key="normalized_absolute_error" value="false"/>
-        <parameter key="root_mean_squared_error" value="false"/>
-        <parameter key="root_relative_squared_error" value="false"/>
-        <parameter key="squared_error" value="false"/>
-        <parameter key="correlation" value="false"/>
-        <parameter key="squared_correlation" value="false"/>
-        <parameter key="cross-entropy" value="false"/>
-        <parameter key="margin" value="false"/>
-        <parameter key="soft_margin_loss" value="false"/>
-        <parameter key="logistic_loss" value="false"/>
-        <parameter key="skip_undefined_labels" value="true"/>
+      <operator activated="true" class="performance" compatibility="9.6.000" expanded="true" height="82" name="Performance (2)" width="90" x="648" y="187">
         <parameter key="use_example_weights" value="true"/>
-        <list key="class_weights"/>
       </operator>
       <connect from_op="Retrieve wine" from_port="output" to_op="Replace Missing Values" to_port="example set input"/>
       <connect from_op="Replace Missing Values" from_port="example set output" to_op="Split Data" to_port="example set"/>
       <connect from_op="Split Data" from_port="partition 1" to_op="Naive Bayes" to_port="training set"/>
       <connect from_op="Split Data" from_port="partition 2" to_op="Apply Model" to_port="unlabelled data"/>
       <connect from_op="Naive Bayes" from_port="model" to_op="Apply Model" to_port="model"/>
-      <connect from_op="Apply Model" from_port="labelled data" to_op="Performance" to_port="labelled data"/>
-      <connect from_op="Performance" from_port="performance" to_port="result 1"/>
+      <connect from_op="Apply Model" from_port="labelled data" to_op="Performance (2)" to_port="labelled data"/>
+      <connect from_op="Performance (2)" from_port="performance" to_port="result 1"/>
       <portSpacing port="source_input 1" spacing="0"/>
       <portSpacing port="sink_result 1" spacing="0"/>
       <portSpacing port="sink_result 2" spacing="0"/>

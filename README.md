@@ -54,3 +54,29 @@ https://towardsdatascience.com/introduction-to-genetic-algorithms-including-exam
 https://towardsdatascience.com/introduction-to-optimization-with-genetic-algorithm-2f5001d9964b
 
 http://see.stanford.edu/materials/icspacs106b/H19-RecBacktrackExamples.pdf
+
+## A3
+   Assignment Report Available [here]().
+### Question 1:  Gaussian Naïve Bayes Classifier Written from scratch.
+   Classify the Parkinson's disease (PD) data set using Gaussian Naïve Bayes Classifier.
+   Solution in [Notebook](https://github.com/hassan11196/AI-Assignments/blob/master/A3/Submission/Q1/K173654-A3-Q1.ipynb) 
+   
+### Question 2: Naïve Bayes Classifier using RapidMiner - Wine Dataset:
+   - Simple Naive Bayes
+      ![](A3/images/Q2-nb-simple-model.png)
+   - Kernel Naive Bayes
+      ![](A3/images/Q2-nb-kernel-model.png)
+
+### Question 3: Naïve Bayes Classifier using RapidMiner - Parkinson's Dataset:
+   - Simple Naive Bayes
+      ![](A3/images/Q3-nb-simple-model.png)
+   - Kernel Naive Bayes
+      ![](A3/images/Q3-nb-kernel-model.png)
+
+### Question 4: K- MEANS Clustering using RapidMiner - Wine Dataset:
+   - Accuracy 
+      ![](A3/images/Q4-kmeans-accuracy.png)
+   - Precision
+      ![](A3/images/Q4-kmeans-precision.png) 
+   - Recall
+      ![](A3/images/Q4-kmeans-recall.png)

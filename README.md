@@ -56,7 +56,7 @@ https://towardsdatascience.com/introduction-to-optimization-with-genetic-algorit
 http://see.stanford.edu/materials/icspacs106b/H19-RecBacktrackExamples.pdf
 
 ## A3
-   Assignment Report Available [here]().
+   Assignment Report Available [here](https://github.com/hassan11196/AI-Assignments/blob/master/A3/Submission/AI-A3-K173654-D.docx).
 ### Question 1:  Gaussian Naïve Bayes Classifier Written from scratch.
    Classify the Parkinson's disease (PD) data set using Gaussian Naïve Bayes Classifier.
    Solution in [Notebook](https://github.com/hassan11196/AI-Assignments/blob/master/A3/Submission/Q1/K173654-A3-Q1.ipynb) 
